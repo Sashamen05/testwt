@@ -1,0 +1,249 @@
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00C9FF;
+    overflow-x:hidden;
+}
+p{
+    font-size: 20px;
+}
+/* Header */
+.navbar{
+    align-items: center;
+}
+.nav_link{
+    text-align: center;
+    padding-left: 500px;
+}
+.navbar h1{
+    padding-left: 20px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-top: 9px;
+}
+
+.navbar ul li a{
+    font-size: 1vw;
+}
+.navbar span{
+    padding-top: 7px;
+    font-size: 1vw;
+}
+.active_link{
+    font-weight: bold;
+}
+/* Header End */
+
+/* Contant */
+.avatar{
+    width: 250px;
+    height: 250px;
+}
+
+/* Accaunt */
+.account{
+    min-width: 200px;
+    max-width: 200px;
+    margin-right: 100px;
+}
+.account_title1{
+    padding-left: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    padding-top: 10px;  
+}
+.account_title{
+    padding-top: 10px;  
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+}
+.login_btn{
+    width: 190px;
+}
+.logout_btn{
+    padding: 5px 60px;
+}
+.btn_add{
+    padding: 5px 30px;
+}
+.btn_coach_add{
+    padding: 5px 50px;
+}
+.create{
+    padding: 5px 40px;
+}
+/* Accaunt End */
+
+/* Create Account */
+.create_block{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.create_block h2{
+    text-align: center;
+}
+.create_block label{
+    padding-top: 20px;
+}
+.login{
+    margin-left: 130px;
+}
+.name{
+    margin-left: 95px;
+}
+.last_name{
+    margin-left: 97px;
+}
+.pass{
+    margin-left: 103px;
+}
+.repass{
+    margin-left: 13px;
+}
+.email{
+    margin-left: 125px;
+}
+.reg_btn{
+    margin-left: 130px;
+}
+/* Create Account End */
+
+/* Add Competitor */
+.form_competitor,
+.form_coach{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.form_competitor h2{
+    text-align: center;
+}
+.form_coach h2{
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.form_competitor form{
+    margin-left: 100px;
+}
+.form_competitor label{
+    padding-top: 20px;
+}
+#name{
+    margin-left: 95px;
+}
+#surname{
+    margin-left: 97px;
+}
+#date{
+    width: 185px;
+    margin-left: 80px;
+}
+#dan{
+    width: 185px;
+    margin-left: 110px;
+}
+#sex{
+    width: 185px;
+    margin-left: 145px;
+}
+#club{
+    margin-left: 135px;
+}
+#coach{
+    margin-left: 125px;
+}
+#avatar{
+    margin-left: 125px;
+}
+#id{
+    margin-left: 155px;
+}
+#coach_name{
+    margin-left: 80px;
+}
+#coach_surname{
+    margin-left: 50px;
+}
+
+/* Info */
+.avatar_info{
+    max-width: 300px;
+    max-height: 440px;
+    min-width: 300px;
+    min-height: 440px;
+}
+.juc{
+    justify-content: space-around;
+}
+.txt_info{
+    padding-left: 200px;
+}
+.info{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.card{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.comm{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .poyas{
+    width: 220px;
+    height: 30px;
+    border: 2px solid black;
+    background-color: black;
+ }
+ .poyastop,
+ .poyasbot{
+    width: 220px;
+    height: 15px;
+    background-color: black;
+
+ }
+ .mDiv{
+    margin-right: 100px;
+ }
+
+ .main_info_coach{
+    margin-top: 100px;
+    margin-left: 100px;
+ }
+
+.main_coach_competitor{
+    margin-top: 30px;
+}
+
+.main_coach_competitor_title{
+    text-align: center;
+    margin-top: 80px;
+}
+.competitor_img{
+    min-width: 287px;
+    max-width: 287px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.hide{
+    display: none;
+}
+
+.nav_bot{
+    border-bottom: 2px solid gray;
+}
